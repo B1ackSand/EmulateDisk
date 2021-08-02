@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EmulateDisk:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EmulateDisk_jar</output-path>
+    <root id="archive" name="EmulateDisk.jar">
+      <element id="module-output" name="EmulateDisk" />
+      <element id="library" level="project" name="beautyeye_lnf1" />
+      <element id="library" level="project" name="file" />
+      <element id="library" level="project" name="beautyeye_lnf" />
+      <element id="dir-copy" path="$PROJECT_DIR$/img" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>object.Disk</OriginalElement>
+  <nodes>
+    <node x="815.1995300345727" y="0.0">object.Folder</node>
+    <node x="1074.1153846153848" y="2352.0">gui.Main</node>
+    <node x="1020.0" y="822.0">object.HasOpen</node>
+    <node x="139.0" y="1052.0">object.FAT</node>
+    <node x="1495.2795285940651" y="1105.0">gui.IconSet</node>
+    <node x="806.25" y="1324.0">tool.FATService</node>
+    <node x="50.9375" y="1520.0">gui.PropPanel</node>
+    <node x="814.6875" y="1104.0">object.Disk</node>
+    <node x="1676.793951670988" y="1935.0">gui.Help</node>
+    <node x="1190.6153846153848" y="1882.0">gui.FileTable</node>
+    <node x="1212.0" y="1091.0">object.HasOpenMore</node>
+    <node x="897.6153846153848" y="1882.0">gui.DiskTable</node>
+    <node x="389.0840049697497" y="1091.0">tool.Message</node>
+    <node x="333.3325014405076" y="1934.0">gui.RenamePanel</node>
+    <node x="1435.0715049697499" y="835.0">tool.FileSystem</node>
+    <node x="616.0120300345727" y="284.0">object.File</node>
+    <node x="799.1153846153848" y="2235.0">gui.FileEditPanel</node>
+    <node x="1067.1153846153848" y="2234.0">gui.MainPanel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="gui.DiskTable" target="object.FAT">
+      <point x="-93.75" y="-86.0" />
+      <point x="928.8653846153848" y="1812.0" />
+      <point x="269.625" y="1812.0" />
+      <point x="269.625" y="1294.0" />
+      <point x="289.875" y="1294.0" />
+      <point x="44.375" y="86.0" />
+    </edge>
+    <edge source="gui.RenamePanel" target="tool.Message">
+      <point x="-21.25" y="-34.0" />
+      <point x="482.0825014405076" y="1304.0" />
+      <point x="516.5840049697497" y="1304.0" />
+      <point x="-42.5" y="47.0" />
+    </edge>
+    <edge source="gui.MainPanel" target="tool.FileSystem">
+      <point x="78.46153846153845" y="-34.0" />
+      <point x="1247.576923076923" y="2204.0" />
+      <point x="1780.293951670988" y="2204.0" />
+      <point x="1780.293951670988" y="1032.0" />
+      <point x="1631.0090049697499" y="1032.0" />
+      <point x="91.4375" y="47.0" />
+    </edge>
+    <edge source="gui.DiskTable" target="tool.FATService">
+      <point x="93.75" y="-86.0" />
+      <point x="1116.3653846153848" y="1832.0" />
+      <point x="1057.25" y="1832.0" />
+      <point x="0.0" y="229.0" />
+    </edge>
+    <edge source="gui.FileEditPanel" target="tool.FATService">
+      <point x="6.875" y="-33.0" />
+      <point x="888.4903846153848" y="2214.0" />
+      <point x="887.1153846153848" y="2214.0" />
+      <point x="887.1153846153848" y="1842.0" />
+      <point x="941.4038461538462" y="1842.0" />
+      <point x="-115.84615384615381" y="229.0" />
+    </edge>
+    <edge source="gui.FileEditPanel" target="gui.FileTable">
+      <point x="61.875" y="-33.0" />
+      <point x="943.4903846153848" y="2154.0" />
+      <point x="1284.3653846153848" y="2154.0" />
+      <point x="-31.25" y="86.0" />
+    </edge>
+    <edge source="object.HasOpenMore" target="object.HasOpen">
+      <point x="-1.1368683772161603E-13" y="-47.0" />
+      <point x="1328.0" y="962.0" />
+      <point x="1169.625" y="962.0" />
+      <point x="64.125" y="60.0" />
+    </edge>
+    <edge source="gui.FileEditPanel" target="object.FAT">
+      <point x="-48.125" y="-33.0" />
+      <point x="833.4903846153848" y="2194.0" />
+      <point x="203.625" y="2194.0" />
+      <point x="203.625" y="1304.0" />
+      <point x="183.375" y="1304.0" />
+      <point x="-62.125" y="86.0" />
+    </edge>
+    <edge source="gui.PropPanel" target="object.FAT">
+      <point x="26.59999999999991" y="-33.0" />
+      <point x="144.0374999999999" y="1304.0" />
+      <point x="147.875" y="1304.0" />
+      <point x="-97.625" y="86.0" />
+    </edge>
+    <edge source="gui.MainPanel" target="gui.FileTable">
+      <point x="31.384615384615415" y="-34.0" />
+      <point x="1200.5" y="2164.0" />
+      <point x="1346.8653846153848" y="2164.0" />
+      <point x="31.25" y="86.0" />
+    </edge>
+    <edge source="gui.PropPanel" target="object.File">
+      <point x="-26.59999999999991" y="-33.0" />
+      <point x="90.83750000000009" y="1304.0" />
+      <point x="79.49052506482303" y="1304.0" />
+      <point x="79.49052506482303" y="802.0" />
+      <point x="692.8870300345727" y="802.0" />
+      <point x="-46.125" y="229.0" />
+    </edge>
+    <edge source="gui.IconSet" target="tool.FileSystem">
+      <point x="0.0" y="-33.0" />
+      <point x="1553.7795285940651" y="1032.0" />
+      <point x="1578.7590049697499" y="1032.0" />
+      <point x="39.1875" y="47.0" />
+    </edge>
+    <edge source="gui.FileEditPanel" target="object.File">
+      <point x="-61.875" y="-33.0" />
+      <point x="819.7403846153848" y="2204.0" />
+      <point x="40.4375" y="2204.0" />
+      <point x="40.4375" y="792.0" />
+      <point x="662.1370300345727" y="792.0" />
+      <point x="-76.875" y="229.0" />
+    </edge>
+    <edge source="gui.MainPanel" target="gui.Help">
+      <point x="62.769230769230774" y="-34.0" />
+      <point x="1231.8846153846155" y="2194.0" />
+      <point x="1723.293951670988" y="2194.0" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="gui.MainPanel" target="tool.FATService">
+      <point x="-15.69230769230768" y="-34.0" />
+      <point x="1153.4230769230771" y="2134.0" />
+      <point x="1158.1153846153848" y="2134.0" />
+      <point x="1158.1153846153848" y="1822.0" />
+      <point x="1095.8653846153848" y="1822.0" />
+      <point x="38.61538461538464" y="229.0" />
+    </edge>
+    <edge source="gui.RenamePanel" target="object.FAT">
+      <point x="-106.25" y="-34.0" />
+      <point x="397.0825014405076" y="1852.0" />
+      <point x="247.625" y="1852.0" />
+      <point x="247.625" y="1274.0" />
+      <point x="254.375" y="1274.0" />
+      <point x="8.875" y="86.0" />
+    </edge>
+    <edge source="tool.FATService" target="tool.Message">
+      <point x="-133.86666666666656" y="-229.0" />
+      <point x="923.3833333333334" y="1264.0" />
+      <point x="686.5840049697497" y="1264.0" />
+      <point x="127.5" y="47.0" />
+    </edge>
+    <edge source="gui.RenamePanel" target="tool.FileSystem">
+      <point x="148.75" y="-34.0" />
+      <point x="652.0825014405076" y="1852.0" />
+      <point x="1473.7795285940651" y="1852.0" />
+      <point x="1473.7795285940651" y="1012.0" />
+      <point x="1526.5090049697499" y="1012.0" />
+      <point x="-13.0625" y="47.0" />
+    </edge>
+    <edge source="gui.PropPanel" target="object.Folder">
+      <point x="-53.200000000000045" y="-33.0" />
+      <point x="64.23749999999995" y="1304.0" />
+      <point x="11.0" y="1304.0" />
+      <point x="11.0" y="254.0" />
+      <point x="876.9495300345727" y="254.0" />
+      <point x="-61.75" y="112.0" />
+    </edge>
+    <edge source="object.HasOpen" target="object.File">
+      <point x="-42.75" y="-60.0" />
+      <point x="1062.75" y="772.0" />
+      <point x="815.8870300345727" y="772.0" />
+      <point x="76.875" y="229.0" />
+    </edge>
+    <edge source="gui.RenamePanel" target="object.Folder">
+      <point x="-148.75" y="-34.0" />
+      <point x="354.5825014405076" y="1862.0" />
+      <point x="0.0" y="1862.0" />
+      <point x="0.0" y="244.0" />
+      <point x="835.782863367906" y="244.0" />
+      <point x="-102.91666666666663" y="112.0" />
+    </edge>
+    <edge source="gui.FileTable" target="tool.FileSystem">
+      <point x="100.00000000000006" y="-86.0" />
+      <point x="1415.6153846153848" y="1862.0" />
+      <point x="1484.7795285940651" y="1862.0" />
+      <point x="1484.7795285940651" y="1022.0" />
+      <point x="1552.6340049697499" y="1022.0" />
+      <point x="13.0625" y="47.0" />
+    </edge>
+    <edge source="tool.FATService" target="object.HasOpenMore">
+      <point x="167.33333333333337" y="-229.0" />
+      <point x="1224.5833333333335" y="1284.0" />
+      <point x="1357.0" y="1284.0" />
+      <point x="28.999999999999886" y="47.0" />
+    </edge>
+    <edge source="tool.FATService" target="tool.FileSystem">
+      <point x="200.80000000000007" y="-229.0" />
+      <point x="1258.0500000000002" y="1294.0" />
+      <point x="1454.5" y="1294.0" />
+      <point x="1454.5" y="1002.0" />
+      <point x="1500.3840049697499" y="1002.0" />
+      <point x="-39.1875" y="47.0" />
+    </edge>
+    <edge source="object.File" target="object.Folder">
+      <point x="0.0" y="-229.0" />
+      <point x="739.0120300345727" y="264.0" />
+      <point x="918.1161967012395" y="264.0" />
+      <point x="-20.583333333333258" y="112.0" />
+    </edge>
+    <edge source="gui.FileEditPanel" target="tool.FileSystem">
+      <point x="75.625" y="-33.0" />
+      <point x="957.2403846153848" y="2184.0" />
+      <point x="1622.7795285940651" y="2184.0" />
+      <point x="1622.7795285940651" y="1032.0" />
+      <point x="1604.8840049697499" y="1032.0" />
+      <point x="65.3125" y="47.0" />
+    </edge>
+    <edge source="gui.PropPanel" target="tool.FileSystem">
+      <point x="0.0" y="-33.0" />
+      <point x="117.4375" y="982.0" />
+      <point x="1448.1340049697499" y="982.0" />
+      <point x="-91.4375" y="47.0" />
+    </edge>
+    <edge source="tool.FATService" target="object.Folder">
+      <point x="66.9333333333334" y="-229.0" />
+      <point x="1124.1833333333334" y="1254.0" />
+      <point x="1201.5" y="1254.0" />
+      <point x="1201.5" y="264.0" />
+      <point x="959.282863367906" y="264.0" />
+      <point x="20.583333333333258" y="112.0" />
+    </edge>
+    <edge source="gui.MainPanel" target="tool.Message">
+      <point x="-62.76923076923072" y="-34.0" />
+      <point x="1106.346153846154" y="2094.0" />
+      <point x="683.8325014405076" y="2094.0" />
+      <point x="683.8325014405076" y="1304.0" />
+      <point x="601.5840049697497" y="1304.0" />
+      <point x="42.5" y="47.0" />
+    </edge>
+    <edge source="object.HasOpenMore" target="tool.FileSystem">
+      <point x="77.33333333333314" y="-47.0" />
+      <point x="1405.3333333333333" y="992.0" />
+      <point x="1474.2590049697499" y="992.0" />
+      <point x="-65.3125" y="47.0" />
+    </edge>
+    <edge source="gui.FileTable" target="object.HasOpenMore">
+      <point x="50.00000000000006" y="-86.0" />
+      <point x="1365.6153846153848" y="1842.0" />
+      <point x="1415.0" y="1842.0" />
+      <point x="86.99999999999994" y="47.0" />
+    </edge>
+    <edge source="tool.FATService" target="object.FAT">
+      <point x="-234.26666666666648" y="-229.0" />
+      <point x="822.9833333333336" y="1294.0" />
+      <point x="307.625" y="1294.0" />
+      <point x="62.125" y="86.0" />
+    </edge>
+    <edge source="gui.FileEditPanel" target="gui.DiskTable">
+      <point x="34.375" y="-33.0" />
+      <point x="915.9903846153848" y="2134.0" />
+      <point x="991.3653846153848" y="2134.0" />
+      <point x="-31.25" y="86.0" />
+    </edge>
+    <edge source="gui.RenamePanel" target="object.File">
+      <point x="21.25" y="-34.0" />
+      <point x="524.5825014405076" y="1822.0" />
+      <point x="763.4575014405076" y="1822.0" />
+      <point x="763.4575014405076" y="802.0" />
+      <point x="723.6370300345727" y="802.0" />
+      <point x="-15.375" y="229.0" />
+    </edge>
+    <edge source="gui.MainPanel" target="gui.DiskTable">
+      <point x="-31.38461538461536" y="-34.0" />
+      <point x="1137.7307692307693" y="2074.0" />
+      <point x="1116.3653846153848" y="2074.0" />
+      <point x="93.75" y="86.0" />
+    </edge>
+    <edge source="tool.FATService" target="object.Disk">
+      <point x="-66.93333333333328" y="-229.0" />
+      <point x="990.3166666666668" y="1244.0" />
+      <point x="900.1875" y="1244.0" />
+      <point x="0.0" y="34.0" />
+    </edge>
+    <edge source="gui.Main" target="gui.MainPanel">
+      <point x="0.0" y="-34.0" />
+      <point x="0.0" y="34.0" />
+    </edge>
+    <edge source="tool.FATService" target="object.HasOpen">
+      <point x="0.0" y="-229.0" />
+      <point x="1057.25" y="972.0" />
+      <point x="1041.375" y="972.0" />
+      <point x="-64.125" y="60.0" />
+    </edge>
+    <edge source="gui.MainPanel" target="object.FAT">
+      <point x="-78.4615384615384" y="-34.0" />
+      <point x="1090.6538461538462" y="2104.0" />
+      <point x="236.625" y="2104.0" />
+      <point x="-8.875" y="86.0" />
+    </edge>
+    <edge source="gui.FileEditPanel" target="tool.Message">
+      <point x="-20.625" y="-33.0" />
+      <point x="860.9903846153848" y="2174.0" />
+      <point x="293.0200014405076" y="2174.0" />
+      <point x="293.0200014405076" y="1304.0" />
+      <point x="431.5840049697497" y="1304.0" />
+      <point x="-127.5" y="47.0" />
+    </edge>
+    <edge source="gui.MainPanel" target="object.Folder">
+      <point x="94.15384615384613" y="-34.0" />
+      <point x="1263.269230769231" y="2214.0" />
+      <point x="1802.293951670988" y="2214.0" />
+      <point x="1802.293951670988" y="244.0" />
+      <point x="1041.6161967012395" y="244.0" />
+      <point x="102.91666666666674" y="112.0" />
+    </edge>
+    <edge source="tool.FATService" target="object.File">
+      <point x="-100.39999999999992" y="-229.0" />
+      <point x="956.8500000000001" y="1254.0" />
+      <point x="804.1875" y="1254.0" />
+      <point x="804.1875" y="792.0" />
+      <point x="754.3870300345727" y="792.0" />
+      <point x="15.375" y="229.0" />
+    </edge>
+    <edge source="gui.FileTable" target="tool.FATService">
+      <point x="-100.0" y="-86.0" />
+      <point x="1215.6153846153848" y="1842.0" />
+      <point x="1211.7115384615386" y="1842.0" />
+      <point x="154.46153846153857" y="229.0" />
+    </edge>
+    <edge source="gui.RenamePanel" target="tool.FATService">
+      <point x="106.25" y="-34.0" />
+      <point x="609.5825014405076" y="1842.0" />
+      <point x="864.1730769230769" y="1842.0" />
+      <point x="-193.0769230769231" y="229.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.912144212523719" x="862.4834616184731" y="1219.22404826295" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
